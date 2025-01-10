@@ -37,8 +37,8 @@ int main()
                                 {
                                         char name[20], sloznost[20], vid[20];
                                         int vozrast, chislo_people, price;
-                                        printf("Введите Имя, Тип, Минимальный возраст игрока, Сложность, Количество иг>
-                                        scanf("%19s %19s %d %19s %d %d", name, vid, &vozrast, sloznost, &chislo_people>
+                                        printf("Введите Имя, Тип, Минимальный возраст игрока, Сложность, Количество игроков, Цену товара: ");
+                                        scanf("%19s %19s %d %19s %d %d", name, vid, &vozrast, sloznost, &chislo_people, &price);
                                         push(&l, name, vid, vozrast, sloznost, chislo_people, price);
                                         save(&l, "igri1");
                                 }
